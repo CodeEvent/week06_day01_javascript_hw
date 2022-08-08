@@ -109,25 +109,25 @@
 
 // // Episode 6
 
-let murderer = 'Colonel Mustard';
+// let murderer = 'Colonel Mustard';
 
-const changeMurderer = function() {
-  murderer = 'Mr. Green';
+// const changeMurderer = function() {
+//   murderer = 'Mr. Green';
 
-  const plotTwist = function() {
-    murderer = 'Mrs. White';
-  }
+//   const plotTwist = function() {
+//     murderer = 'Mrs. White';
+//   }
 
-  plotTwist();
-}
+//   plotTwist();
+// }
 
-const declareMurderer = function () {
-  return `The murderer is ${murderer}.`;
-}
+// const declareMurderer = function () {
+//   return `The murderer is ${murderer}.`;
+// }
 
-changeMurderer();
-const verdict = declareMurderer();
-console.log(verdict);
+// changeMurderer();
+// const verdict = declareMurderer();
+// console.log(verdict);
 
 
 
